@@ -1,0 +1,458 @@
+Balise HTML
+Description
+Fin
+Attribut
+<!doctype>
+Numéro de version du langage HTML utilisé.
+N
+ 
+<!-- -->
+Commentaire.
+N
+ 
+<abbr>
+Abréviation.
+O
+ 
+<acronym>
+Acronyme.
+O
+ 
+<address>
+URL sous forme textuel, sans utilisation de lien hypertexte (italique).
+O
+ 
+<a>
+Création d'une ancre pour liens hypertexte.
+O
+href="http://..." : Hyperlien vers une page Web.
+href="ftp://..." : Hyperlien vers une adresse FTP.
+href="telnet://..." : Hyperlien vers une adresse TelNet.
+href="mailto:nom@domaine.com" : Hyperlien vers l'e-mail de nom@domaine.com.
+href="nomdefichier" : Hyperlien vers un fichier local, si le fichier ne peut pas être affiché dans le navigateur, le fichier sera téléchargé.
+<applet>
+Insertion d'un applet Java. (déconseillé)
+O
+ 
+<area>
+Permet de définir une zone cliquable dans la page.
+N
+ 
+<b>
+Gras.
+O
+ 
+<base>
+Définition de l'URL de la page HTML exploité en cas d'erreur de transmission.
+N
+ 
+<basefont>
+Définit la taille par défaut des caractères. (déconseillé)
+N
+size=x : La taille par défaut des caractères sera de x.
+<bdo>
+Changement de direction impossible.
+O
+ 
+<bgsound>
+Insertion d'un fichier audio au format WAV ou MID (I.E. seulement).
+N
+src="fichierson" : emplacement et nom du fichier son.
+<big>
+La taille de la police est augmenté de 1 point.
+O
+ 
+<blink>
+Clignotement du texte (N.N. seulement).
+O
+ 
+<blockquote>
+Petite marge à gauche.
+O
+ 
+<body>
+Encadre le corps d'un fichier HTML.
+O
+bgcolor="couleur" : Couleur qui sera utilisé pour l'arrière plan.
+background="fichierimage" : Image d'arrière-plan (BMP, JPG ou GIF).
+link="couleur" : Couleur des liens.
+alink="couleur" : Couleur des liens déjà exploités.
+vlink="couleur" : Couleur des liens lors du clic.
+<br>
+Saut de ligne.
+N
+clear="left|right|all" : Le texte ou l'image suivante est décalé vers le bas, jusqu'à ce qu'il n'y ait plus d'élément de formatage à gauche|à droite|à gauche et à droite.
+<button>
+Bouton dans un formulaire (I.E. seulement).
+O
+ 
+<caption>
+Titre de tableau.
+O
+align="left|center|right" : Alignement du titre à gauche|centré|à droite.
+<center>
+Centrage. (déconseillé)
+O
+ 
+<cite>
+Citation (italique).
+O
+ 
+<code>
+Code source.
+O
+ 
+<col>
+Définition d'une colonne d'un tableau (I.E. seulement).
+N
+ 
+<colgroup>
+Regroupement de colonnes dans un tableau (I.E. seulement).
+F
+ 
+<commment>
+Commentaire (I.E. seulement).
+O
+ 
+<dd>
+Définition d'un terme de glossaire (retrait) (encadré par <dl>).
+F
+ 
+
+<del>
+Information sur le document HTML.
+O
+ 
+<dfn>
+Texte sous forme logique. (déconseillé)
+O
+ 
+<dir>
+Liste à plusieurs dimensions.
+O
+ 
+<div>
+Implémente une feuille de style par bloc entier.
+O
+id="[nom]" : Identifiant.
+class="[nom]" : Classe.
+<dl>
+Structure d'un glossaire (encadre la balise <dt> et la balise <dd>).
+O
+ 
+<dt>
+Elément d'un glossaire (encadré par la balise <dl>).
+F
+ 
+<em>
+Emphase (italique).
+O
+ 
+<embed>
+Insertion d'application multimédia.
+N
+ 
+<fieldset>
+Regroupement de zone dans les formulaires.
+O
+ 
+<font>
+Définition du texte. (déconseillé)
+O
+size=x : Caractère de taille x (x compris entre 1 et 7).
+size=+x|-x : Augmenter|Réduire la taille de caractère de x.
+color="couleur" : définit la couleur du texte.
+<form>
+Insertion d'un formulaire (encadre les balises <input>, <textarea>, <select> et <option>).
+O
+action="..." : Pour l'envoi par e-mail, remplacer ... par l'e-mail.
+method="..." : Pour l'envoi par e-mail, remplacer... par "post".
+<frame>
+Insertion d'une nouvelle frame 'encadré par la balise <frameset>.
+N
+ 
+<frameset>
+Fichier d'index pour les frames, remplace la balise <body> (encadre la balise <frame>).
+O
+ 
+<h1>
+Titre de niveau 1.
+O
+align="center|left|right" : Titre centré|aligné à gauche|aligné à droite.
+<h2>
+Titre de niveau 2.
+O
+align="center|left|right" : Titre centré|aligné à gauche|aligné à droite.
+<h3>
+Titre de niveau 3.
+O
+align="center|left|right" : Titre centré|aligné à gauche|aligné à droite.
+<h4>
+Titre de niveau 4.
+O
+align="center|left|right" : Titre centré|aligné à gauche|aligné à droite.
+<h5>
+Titre de niveau 5.
+O
+align="center|left|right" : Titre centré|aligné à gauche|aligné à droite.
+<h6>
+Titre de niveau 6.
+O
+align="center|left|right" : Titre centré|aligné à gauche|aligné à droite.
+<head>
+En-tête d'un fichier HTML (encadre les balises <title>, <meta> et <base>).
+O
+ 
+<hr>
+Barre horizontale
+N
+align="center|left|right" : Barre centré|aligné à gauche|aligné à droite.
+width=x%|y : Trait large de x pourcent|y pixels.
+size=x : Hauteur du trait en pixels.
+color="couleur" : Couleur de la barre (I.E. seulement).
+noshade : Pas d'affichage ombré.
+<html>
+Obligatoire au début et à la fin du fichier HTML.
+O
+ 
+<i>
+Italique.
+O
+ 
+<iframe>
+Cadre local (I.E. seulement).
+O
+ 
+<img>
+Insertion d'une image.
+N
+src="nomdefichier" : emplacement et nom du fichier image (format bmp, jpg, gif).
+align="top|middle|bottom|left|right" : aligner l'image en haut|au milieu|en bas|à gauche|à droite.
+width=x : largeur de x pixels.
+height=y : hauteur de y pixels.
+border=x : bordure de x pixels.
+alt="texte" : affiche ce texte lorsque l'image n'est pas affichable ou lorsque la souris reste pointée dessus.
+<input>
+Nouvelle élément dans un formulaire.
+N
+type="submit|reset|radio|checkbox : définit le type de l'élément : bouton "ENVOYER"|bouton "EFFACER"|case d'option|case à cocher. Pour tous ces types, l'attribut value est obligatoire. Pour radio et checkbox, l'attribut name est obligatoire.
+value="texte" : texte à afficher dans la case ou la zone de texte.
+name="NomDeLélément" : nom donné à l'élément, chaque radio ou checkbox appartenant au même groupe doivent possédé le même name, mais un value différent.
+size=x : longueur x d'un champs de saisie d'une ligne, (pour le champ de saisie, seuls les attributs size, name et maxlenght sont demandés.
+maxlenght=y : longueur maximal d'un champ de saisie d'une ligne.
+<ins>
+Fournit des informations sur le document.
+O
+ 
+<isindex>
+Définition d'un fichier de recherche (script CGI). (déconseillé)
+N
+ 
+<kbd>
+Texte type "machine à écrire".
+O
+ 
+<label>
+Extension de la balise <form> (I.E. seulement).
+O
+ 
+<layer>
+Définition des couches (N.N. seulement).
+O
+ 
+<legend>
+Légende de tableau.
+O
+ 
+<li>
+Elément d'une liste (encadré par la balise <ul> ou la balise <ol>).
+O
+ 
+<link>
+Lien indépendant du média.
+N
+ 
+<map>
+Définit une zone cliquable.
+O
+ 
+<marquee>
+Texte défilant (I.E. seulement).
+O
+ 
+<menu>
+Liste de type menu. (déconseillé)
+O
+ 
+<meta>
+Information sur la page HTML.
+N
+name="description|keywords|author" : la description|les mots-clés|l'auteur seront indiqués dans l'attribut content.
+http-equiv="refresh" : provoque le chargement de la page indiqué dans l'attribut url après x secondes indiqués dans l'attribut content. Si url est omis, la même page est rechargée.
+content="nombre ou texte" : voir ci-dessus.
+url="fichier" : voir l'attribut http-equiv.
+<nextid>
+Indique le document suivant.
+N
+ 
+<nobr>
+Pas de passage automatique à la ligne sauf avec la balise <wbr>.
+O
+ 
+<noembed>
+Encadre les éléments qui seront interprété si les applications multimédia ne sont pas acceptés par le navigateur.
+O
+ 
+<noframes>
+Encadre les éléments qui seront interprétés si les frames ne sont pas accepté par la navigateur.
+O
+ 
+<noscript>
+Encadre les éléments qui seront interprété si les scripts ne sont pas acceptés par le navigateur.
+O
+ 
+<object>
+Insertion d'objet (multimédia, applet Java...).
+O
+ 
+
+<ol>
+Liste numérotée (encadre la balise <li>).
+O
+ 
+<option>
+Nouvelle entrée dans une liste de choix.
+N
+ 
+<p>
+Début d'un paragraphe, saute 2 lignes.
+F
+align="center|left|right" : Paragraphe centré|aligné à gauche|aligné à droite.
+<param>
+Paramètre d'un objet inséré.
+O
+ 
+<pre>
+Texte pré-formaté avec une police non-proportionnelle.
+O
+ 
+<q>
+Citation longue.
+O
+ 
+<s>
+Texte barré.
+O
+ 
+<samp>
+Exemple en italique.
+O
+ 
+<script>
+Insertion d'un script
+O
+language="javascript|vbscript" : Langage utilisé pour le script.
+<select>
+Liste de choix (encadre la balise <option> et encadré par la balise <form>).
+O
+ 
+<small>
+Réduit la taille des caractères de 1 point.
+O
+ 
+<span>
+Implémente une feuille de style.
+O
+id="[nom]" : Identifiant.
+class="[nom]" : Classe.
+<strike>
+Texte barré. (déconseillé)
+O
+ 
+<strong>
+Texte en gras.
+O
+ 
+<style>
+Feuille de style (le plus souvent dans entre les balises <head> et </head>).
+O
+ 
+<sub>
+Texte en indice.
+O
+ 
+<sup>
+Texte en exposant.
+O
+ 
+<table>
+Tableau.
+O
+cols=x : Tableau composé de x colonnes.
+width=x%|y : Tableau large de x pourcent|de y pixels.
+border=x : Taille de la bordure en pixels.
+cellpadding=x : Espacement entre bordure et texte.
+cellspacing=x : Espacement entre les cellules.
+<tbody>
+Regroupement de tableaux.
+F
+ 
+<td>
+Nouvelle cellule dans un tableau (encadré par la balise <tr>).
+F
+width="x%|y" : Cellule large de x pourcent|y pixels.
+align="center|left|right" : Le texte compris dans les cellules est centré|aligné à gauche|aligné à droite.
+colspan=x : x cellules à fusionner horizontalement.
+rowspan=x : x cellules à fusionner verticalement.
+bgcolor="couleur" : Couleur d'arrière-plan de la cellule.
+<textarea>
+Champ de saisie de plusieurs lignes.
+O
+name="nom" : Nom donné à la zone de texte.
+rows=x : Zone de texte de largeur x.
+cols=x : Zone de texte de longueur maximale x.
+<tfoot>
+Regroupement de tableaux.
+F
+ 
+<th>
+Cellule d'en-tête d'un tableau.
+F
+ 
+<thead>
+Regroupement de tableaux.
+O
+ 
+<title>
+Titre du document HTML (à insérer dans la balise <head>).
+O
+ 
+<tr>
+Nouvelle ligne d'un tableau (encadré par la balise <table>).
+F
+height="x%|y" : Ligne large de x pourcent|y pixels.
+bgcolor="couleur" : Couleur d'arrière-plan de la ligne.
+<tt>
+Texte de type "machine à écrire".
+O
+ 
+<u>
+Texte en souligné. (déconseillé)
+O
+ 
+<ul>
+Liste non-numéroté (encadre la balise <li>).
+O
+ 
+<var>
+Texte sous forme de variable.
+O
+ 
+<wbr>
+Désactive temporairement la balise <nobr>.
+N
+ 
+<xmp>
+Texte sous forme d'exemple (italique). (obsolète)
+O
+ 
