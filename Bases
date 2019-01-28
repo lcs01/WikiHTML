@@ -1,0 +1,28 @@
+
+ - <head> importe les bibliotèques, les frameworks, et l'utilisation de CSS 
+fin </head> 
+
+----------------------------------------------------------------------------------------------------------------------
+<body> // modifie tout ce qu’il y a à l’intérieur de ces balises 
+
+tu classe tout dans des cases 
+
+
+chaque nom de case peut être utiliser dans le CSS et le JS
+<case 1 >  // modifie img video text1 mais
+img
+video
+texte  1
+<case 2> // ne modifie que la partie texte2 
+texte 2
+fin </case 2>
+fin </case 1> 
+
+<case 3> // contient le footer : bas de page // ne modifie que le footer (case 3) (logo1/logo2) 
+logo1(img)
+logo2(img)
+
+fin <case3>
+fin <body>
+<script >JS  fin </script>
+}
